@@ -1,0 +1,48 @@
+.Header-area{
+  background-color: dodgerblue;
+  padding: 20px 0;
+  position: sticky;
+  
+}
+.header-logo h3{
+  color: #fff;
+}
+.search{
+  margin-top: 3px;
+}
+.search form{position: relative;}
+.search form input{
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  padding-left: 45px;
+  height: 35px;
+}
+.search form input:focus{
+  outline: none;
+}
+.search i{
+  position: absolute;
+  left: 0;
+  top:10px;
+  padding-left: 20px;
+
+
+}
+.header-icon{
+  margin-top: 7px;
+  text-align: end;
+}
+.header-icon i{
+  color: #fff;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.logo{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: -10px;
+}

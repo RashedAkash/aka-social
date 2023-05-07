@@ -1,0 +1,39 @@
+.left-bar{
+  overflow-y: scroll;
+  
+  
+}
+::-webkit-scrollbar-thumb{
+  background-color: red;
+}
+
+
+.leftbar-list{
+  margin-top: 10px;
+}
+.leftbar-list ul{
+
+}
+.leftbar-list ul li {
+    margin-bottom: 20px;
+    font-size: 25px;
+    list-style: none;
+    text-transform: capitalize;
+}
+.leftbar-list ul li i {
+  margin-right: 10px;
+  font-size: 25px;
+ 
+}
+.leftbar-list ul button {
+    background: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid gray;
+    padding: 10px 24px;
+}
+.friend-list {}
+.friend-list ul {}
+
+.friend-list ul li h4{}

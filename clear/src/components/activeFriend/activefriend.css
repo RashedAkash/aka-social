@@ -1,0 +1,27 @@
+.activeFriend-list ul li{
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  list-style: none;
+  position: relative;
+}
+.activeFriend-list ul li img{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.activeFriend-list ul{
+  margin-top: 20px;
+}
+.activeFriend-list ul li::before{
+position: absolute;
+content: "";
+background-color: green;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+border: 1px solid #fff;
+left: 23px;
+top: 23px;
+}

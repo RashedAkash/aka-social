@@ -1,0 +1,75 @@
+.post-img img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.top-post{
+  display: flex;
+
+}
+.Post-area{
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin: 30px 0;
+  padding: 30px;
+}
+.post-icon {
+  text-align: right;
+  
+}
+.post-icon i{
+ margin-right: 10px;
+ font-size: 20px;
+
+}
+.main-img img{
+  width: 100%;
+  margin-top: 20px;
+}
+.post-like{
+  display: flex;
+  margin-top: 15px;
+}
+.like{color: #fff;
+background-color: dodgerblue;
+border-radius: 50%;
+width: 10px;
+height: 10px;
+padding: 2px 4px;
+font-size: 10px;
+}
+.love{
+  border-radius: 50%;
+width: 10px;
+height: 10px;
+padding: 2px 4px;
+font-size: 10px;
+background-color: red;
+color: #fff;
+}
+.like-text{
+  margin-left: 10px;
+}
+.post-comment{
+  text-align: right;
+  margin-top: 15px;
+}
+.post-comment .commment{
+  margin-right: 10px;
+}
+.like-comment{
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+.like-cmnt-share span{
+  margin-left: 10px;
+}
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+.like-cmnt-share{
+  margin-top: 20px;
+}
