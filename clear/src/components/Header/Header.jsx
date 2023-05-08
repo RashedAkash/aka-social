@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../imges/270034062_104135072145342_4304221713873365102_n.jpg';
 import './header.css';
+import { NavLink,Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -12,6 +13,8 @@ const Header = () => {
             <div className="col-xl-3">
               <div className="header-logo">
                 <h3>Akashsocial</h3>
+                
+                
               </div>
             </div>
             <div className="col-xl-6">
@@ -26,8 +29,12 @@ const Header = () => {
             </div>
             <div className="col-xl-3">
               <div className="header-icon">
-                <i class="fa-solid fa-message"></i>
-                <i class="fa-solid fa-bell"></i>
+                <nav>
+                  <ul>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/Profile">Profile</a></li>
+                </ul>
+                </nav>
                 <img className='logo' src={logo} alt="" />
               </div>
             </div>

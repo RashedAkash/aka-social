@@ -2,6 +2,7 @@ import React from 'react';
 import './leftbar.css'
 import {Posts} from '../dummyData'
 import FriendList from './friendList/FriendList';
+import { NavLink } from 'react-router-dom';
 
 const Leftbar = () => {
   return (

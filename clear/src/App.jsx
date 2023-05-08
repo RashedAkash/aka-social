@@ -5,6 +5,8 @@ import Header from './components/Header/Header';
 
 import Home from './Pages/Home/Home';
 import Profile from './Pages/Profile/Profile';
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import NotFound from './Pages/NotFound/NotFound';
 
 
 
@@ -20,8 +22,26 @@ function App() {
     <div>
       
       <Header />
-      <Home />
-      <Profile />
+      
+      
+      <BrowserRouter>
+        <Routes>
+    <Route  path='/' element = {<Home />}>  </Route>         
+              
+          
+          <Route path='/Profile' element={<Profile />}>          
+          </Route>
+
+          <Route path='*' element ={<NotFound />}>
+            
+          </Route>
+
+          
+
+          
+        </Routes>
+      
+      </BrowserRouter>
       
       
       

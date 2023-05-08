@@ -31,18 +31,28 @@
 }
 .header-icon{
   margin-top: 7px;
-  text-align: end;
+  display: flex;
+  
 }
-.header-icon i{
-  color: #fff;
-  font-size: 25px;
-  margin-left: 20px;
+.header-icon ul li{
+  display: inline-block;
+  margin-right: 20px;
+  
+  
+}
+.header-icon ul li a{
+color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.header-icon ul li a.active{
+  color: red;
 }
 
 .logo{
-  width: 32px;
-  height: 32px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   margin-left: 20px;
-  margin-top: -10px;
+  
 }
